@@ -14,8 +14,8 @@ jobs:
       - name: Coverity Scan
         uses: synopsys-sig/synopsys-action@v1.13.0
         with:
-          java-version: 21
-          distribution: microsoft
+          #java-version: 21
+          #distribution: microsoft
           ### SCANNING: Required fields
           coverity_url: ${{ secrets.COVERITY_URL }}
           coverity_user: ${{ secrets.COVERITY_USER }}
