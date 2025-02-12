@@ -31,6 +31,7 @@ jobs:
           ### SCANNING: Required fields
           blackduck_url: ${{ secrets.BLACKDUCK_URL }}
           blackduck_token: ${{ secrets.BLACKDUCK_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
          
           ### SCANNING: Optional fields
           # blackduck_scan_failure_severities: 'BLOCKER,CRITICAL'
