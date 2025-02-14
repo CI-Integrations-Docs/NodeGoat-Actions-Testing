@@ -17,7 +17,7 @@ steps:
   displayName: 'Black Duck Scan'
   ### Configuration to set specific detect environment variables
   env:
-    DETECT_PROJECT_NAME: $(Build.Repository.Name)
+    DETECT_PROJECT_NAME: 'docs-test-1'
   inputs:
     BLACKDUCK_URL: $(BLACKDUCK_URL)
     BLACKDUCK_TOKEN: $(BLACKDUCK_TOKEN)
