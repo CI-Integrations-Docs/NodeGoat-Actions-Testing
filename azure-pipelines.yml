@@ -19,9 +19,9 @@ steps:
   env:
     DETECT_PROJECT_NAME: $(Build.Repository.Name)
   inputs:
-    BRIDGE_BLACKDUCKSCA_URL: $(BLACKDUCK_URL)
-    BRIDGE_BLACKDUCKSCA_TOKEN: $(BLACKDUCK_TOKEN)
-    BRIDGE_BLACKDUCKSCA_SCAN_FULL: true
+    blackducksca_url: $(BLACKDUCK_URL)
+    blackducksca_token: $(BLACKDUCK_TOKEN)
+    #BRIDGE_BLACKDUCKSCA_SCAN_FULL: true
     
     ### Mandatory when BLACKDUCKSCA_PRCOMMENT_ENABLED or BLACKDUCKSCA_FIXPR_ENABLED is set true
     # AZURE_TOKEN: $(System.AccessToken)
